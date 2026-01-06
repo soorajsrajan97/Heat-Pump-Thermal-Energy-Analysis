@@ -11,13 +11,13 @@ This repository contains three Python projects demonstrating engineering-oriente
 **Goal:** Simulate steady-state and simplified dynamic behavior of a vapor-compression heat pump.
 
 **Highlights:**
-- Steady-state cycle simulation using CoolProp to calculate enthalpy, pressure, and COP
+- Steady-state cycle simulation using CoolProp to calculate COP using CoolProp (R134a)
 - Simplified first-order thermal response to step changes in load
 - Visualized p-h diagrams and transient temperature response
-- Refrigerant: R134a
-- Achieved COP: 6.59
+- Achieved COP: 6.59 (5°C evaporator, 40°C condenser)
 
 **Outputs:**
+- `heat_pump_steady_dynamic.ipynb` – file
 - `hp_cycle.png` – heat pump cycle diagram
 - `hp_dynamic.png` – simplified dynamic response
 
@@ -33,6 +33,7 @@ This repository contains three Python projects demonstrating engineering-oriente
 - Visualization against actual demand
 
 **Output:**
+- `thermal_load_forecast.ipynb` – file
 - `thermal_load_forecast.png` – forecast comparison plot
 
 ### 3. Thermal Storage Modeling
@@ -44,6 +45,7 @@ This repository contains three Python projects demonstrating engineering-oriente
 - Visualized storage temperature and power flows over a 24-hour horizon
 
 **Output:**
+- `thermal_storage_control.ipynb` – file
 - `thermal_storage_model.png` – storage operation visualization
 
 ## Technologies
