@@ -23,7 +23,7 @@ This repository contains four small Python projects on heat pump systems, therma
 - `hp_cycle.png` – p-h diagram
 - `thermal_response.png` – house temperature and heat pump output
 
-**Source:** Viessmann, *Technische Daten, Sole/Wasser-Wärmepumpen*, p. 44/45 (https://www.viessmann.de/content/dam/public-brands/master/pdf/technology-brochures/de/pr-waermepumpen.pdf/_jcr_content/renditions/original./pr-waermepumpen.pdf)]. The data sheet itself is not included in this repository.
+**Source:** Viessmann, *Technische Daten, Sole/Wasser-Wärmepumpen*, p. 44/45 (https://www.viessmann.de/content/dam/public-brands/master/pdf/technology-brochures/de/pr-waermepumpen.pdf/_jcr_content/renditions/original./pr-waermepumpen.pdf). The data sheet itself is not included in this repository.
 
 ### 2. Heat Pump Sizing Check
 **Goal:** Compare a building's heat load with data sheet capacities and classify each unit as too small, well sized or too large.
